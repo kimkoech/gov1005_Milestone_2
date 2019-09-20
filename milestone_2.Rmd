@@ -1,0 +1,22 @@
+---
+title: "Pros and Cons of 2 Projects"
+author: "Billy Koech"
+date: "9/20/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Project 1: Hemanth Bharatha Chakravarthy: Twitter in the Biggest Elections in the World
+
+This is a project on sentiment analysis of the biggest Twitter election campaign in the world. The full site cam be found [here](https://hemanth-bharatha-chakravarthy.shinyapps.io/lok_sabha/). The author of this project scrapped a 108000 popular tweets and permed sentiment analysis. One of the pros of this project is that the author collected a large amount of samples and attempted to ensure that theey samples are well distributed across social-economic classes. The author even attempted to translate some phrases from Hindi and hinglish. These efforts increased the fidelity of the samples as representative of the phenomena. The author included a number of graphs to represent data ie. a wordcloud, a horizontal bar graph, a commulative bar graph and even a map. However, there are a few cons:The author could have made more representations of the data. For example, the page on [public sentiment](https://hemanth-bharatha-chakravarthy.shinyapps.io/lok_sabha/#) has a table showing the polarity of the tweets (positive or negative). Instead of a table the author could have made a pie chart. As per the data camp lectures on data visualisation, a pie chart would have been suitable here given the fact that the author had to visually represent just two data values.
+
+
+## Project 2: Steven Espinoza: Looking at data concerning sanitary violations near Harvard Square
+
+This project consists of a large database of reports on sanitary violations. The full site can be found [here](https://stevene97.shinyapps.io/Gov1005_Final_Project/).The site itself is intuitive and easy to navigate. It does not contatin too many tabs as to overwhelm the user. The graphs are also well labelled, and sized to the perfect resolution. What's even more interesting is how the map responds accordingly when one changes the graph in view ie. each graph corresponds to a particar location. There are some cons to this project, but the biggest one is that the dataset as a whole seems quite big, but the records for each location average about 10. What this means is that there does not seem to be a lot of recorded data for each location. For this reason, long term trends cannot be inferred from the graphs. 
+
+
+
